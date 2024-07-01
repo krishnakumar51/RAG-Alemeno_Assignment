@@ -2,15 +2,6 @@
 
 This project implements a Retrieval-Augmented Generation (RAG) chatbot using the LangChain framework. The chatbot leverages a local LLM (Llama3) through Ollama, FastEmbedEmbeddings with the "BAAI/bge-base-en-v1.5" model for embeddings, and the FAISS vector database for storing and indexing embeddings.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 
 1. **Clone the repository:**
@@ -24,7 +15,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using the
 
     ```bash
     python3 -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    `env\Scripts\activate`
     ```
 
 3. **Install the dependencies:**
@@ -46,7 +37,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using the
 1. **Run the chatbot:**
 
     ```bash
-    python main.py
+    streamlit run app.py
     ```
 
 2. **Interact with the chatbot through the provided interface:**
